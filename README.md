@@ -1,4 +1,4 @@
-```markdown
+
 # Machine Learning-Driven Identification of Therapeutic Checkpoints in Rheumatoid Arthritis: A Network-Based Approach to Discover Resolution-Promoting Agents
 
 ## Overview
