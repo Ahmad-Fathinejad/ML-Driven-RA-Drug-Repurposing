@@ -30,7 +30,6 @@ Rheumatoid Arthritis (RA) is a chronic inflammatory disease where conventional a
 * **Proposed Agents:** Discovered **Manumycin A** and **Salermide** as top candidate resolution-promoting drugs.
   
 ## 📁 Repository Structure 
-
 ├── Data/                   # Raw and processed datasets (GSE55235, GSE77298)
 ├── Notebooks/              # Jupyter notebooks containing the full reproducible pipeline
 ├── Results/                # Output plots (PCA, Volcano, Heatmap, Confusion Matrix, etc.)
