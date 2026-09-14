@@ -28,8 +28,13 @@ Rheumatoid Arthritis (RA) is a chronic inflammatory disease where conventional a
 * **Validated Checkpoints:** Pinpointed critical hubs including **MYC, PTPRC, and JUN**.
 * **Model Accuracy:** Random Forest achieved **86.96% accuracy** on the unseen external validation cohort.
 * **Proposed Agents:** Discovered **Manumycin A** and **Salermide** as top candidate resolution-promoting drugs.
-* **Repository Structure:** `/Data/` (expression matrices), `/Notebooks/` (end-to-end Python pipeline), `/Results/` (high-resolution statistical plots), and the root directory containing `app.py` for the Streamlit dashboard.
+  
+##📁 Repository Structure
 
----
-
-**یک سوال کوتاه برای گام بعدی:** آیا برای به‌روزرسانی بخش‌های مربوطه در رزومه (CV) و انگیزه‌نامه (SOP) نیاز به استخراج یک پاراگرافِ متمرکز و تأثیرگذار از همین دستاوردها دارید؟
+├── Data/                   # Raw and processed datasets (GSE55235, GSE77298)
+├── Notebooks/              # Jupyter notebooks containing the full reproducible pipeline
+├── Results/                # Output plots (PCA, Volcano, Heatmap, Confusion Matrix, etc.)
+├── app.py                  # Source code for the interactive Streamlit dashboard
+├── requirements.txt        # Python dependencies
+├── top_hub_genes.csv       # List of the identified therapeutic checkpoints
+└── top_candidate_drugs.csv # List of computationally repurposed drugs
