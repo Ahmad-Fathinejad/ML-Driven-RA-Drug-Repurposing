@@ -29,7 +29,7 @@ Rheumatoid Arthritis (RA) is a chronic inflammatory disease where conventional a
 * **Model Accuracy:** Random Forest achieved **86.96% accuracy** on the unseen external validation cohort.
 * **Proposed Agents:** Discovered **Manumycin A** and **Salermide** as top candidate resolution-promoting drugs.
   
-##📁 Repository Structure
+## 📁 Repository Structure 
 
 ├── Data/                   # Raw and processed datasets (GSE55235, GSE77298)
 ├── Notebooks/              # Jupyter notebooks containing the full reproducible pipeline
