@@ -12,14 +12,19 @@ Rheumatoid Arthritis (RA) is a chronic inflammatory disease where conventional a
 ## 🎯 Research Objectives
 
 * **Target Identification:** Extract specific therapeutic checkpoints (Hub genes) within the RA synovial protein-protein interaction network that are directly linked to inflammation resolution.
+  
 * **Generalizability:** Overcome overfitting and batch-effect limitations of single-dataset studies by testing machine learning algorithms on completely independent external cohorts.
+  
 * **Drug Repurposing:** Translate systemic genomic data into pharmacotherapy using reverse signature analysis (pattern matching) to discover compounds capable of reversing the pathological signature.
 
 ## 🛠️ Computational Pipeline
 
 * **Data Acquisition & Preprocessing:** Processed transcriptomic data (GSE55235 as discovery, GSE77298 exclusively as external validation) utilizing SciPy and Statsmodels.
+  
 * **Network Pharmacology:** Intersected Reactome pathways with STRING PPI networks, applying Betweenness Centrality via NetworkX to isolate the top 15 fundamental bottlenecks.
+  
 * **Machine Learning Benchmarking:** Evaluated Random Forest, SVM, and XGBoost using Stratified 5-Fold Cross-Validation. The optimal model was tested on the external dataset without synthetic batch-effect merging to confirm true biological validity.
+  
 * **Reverse Signature Analysis:** Queried the validated upregulated and downregulated checkpoints through the L1000CDS2 database to identify top drug candidates.
 
 ## 📊 Key Findings & Repository Structure
