@@ -38,4 +38,3 @@ Rheumatoid Arthritis (RA) is a chronic inflammatory disease where conventional a
 ├── requirements.txt        # Python dependencies
 ├── top_hub_genes.csv       # List of the identified therapeutic checkpoints
 └── top_candidate_drugs.csv # List of computationally repurposed drugs
-'''
